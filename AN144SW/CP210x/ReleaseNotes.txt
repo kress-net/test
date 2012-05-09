@@ -1,0 +1,92 @@
+
+CP210x Customization Utility v3.0 Release Notes
+Copyright (C) 2010 Silicon Laboratories, Inc.
+
+This release contains the following components:
+
+        * CP210xManufacturing.dll (v5.0)
+        * CP210xManufacturingDLL.h
+        * CP210xManufacturing.lib
+        * CP210xSetIDs.exe (v3.0)
+        * CP210xSetIDs_SRC.zip
+        * ReleaseNotes.TXT (this file)
+
+KNOWN ISSUES AND LIMITATIONS
+----------------------------
+
+	1.) Only CP2101, CP2102, CP2103, CP2104 and CP2105 devices are supported by this utility. 
+
+	2.) CP210xManufacturing.dll must be in the same directory as CP210xSetIDs.exe.
+
+Release Dates
+-------------
+
+	CP210x Customization Utility v3.0 - Sep 23, 2010
+
+
+REVISION HISTORY
+-----------------
+
+version 3.0
+	Updated to include CP2105 support
+	Now contains version 5.0 of the CP210xManufacturing.DLL
+	Added Flush Buffer configuration for both CP2104 and CP2105
+	Added Interface String configurations for CP2105
+	Updated source code to Visual Studio 2005
+
+version 2.3a
+	Now contains version 4.1 of the CP210xManufacturing.DLL
+
+version 2.3
+	Updated to include CP2104 support
+	Now contains version 3.5 of the CP210xManufacturing.DLL
+	
+version 2.2
+	Updated software to contain an About button for easy version access
+	Now contains version 3.4 of the CP210xManufacturing.DLL
+
+version 2.1a
+	No software change, but now contains version 3.3 of the CP210xManufacturing.DLL
+
+version 2.1
+	Updated for use with version 3.0 of the CP210xManufacturing.DLL that makes use
+	of the 5.0 VCP driver.
+
+version 2.0
+	Changed GetNumDevices to not return an error when there are 0 devices connected.
+	Fixed the "Locked Byte always 1" bug.
+
+version 1.1
+	CP210xManufacturing DLL CP210x_GetProductString, CP210x_SetProductString,
+	CP210x_GetSerialNumber and CP210x_SetSerialNumber updated so that the UNICODE
+	options work according to documentation, length is returned as number of characters
+	without the NULL character.
+
+	CP210xManufacturing DLL PORT_CONFIG structure updated according to documentation.
+
+version 1.06
+	CP210xManufacturing DLL CP210x_GetLockValue() changed to return 0x00 or 0x01.
+
+version 1.05
+	CP210xManufacturing DLL changed to allow support for CP2013 devices.
+
+version 1.04
+	Name of CP210x.DLL changed to CP210xManufacturing DLL.
+
+version 1.03
+	CP2102 Support added, and renamed to show support for "CP210x" devices.
+
+Version 1.02
+	Changed CP2101 DLL to return an error if a 0 length string is passed.
+	GUI layout of CP2101SetIDs changed.
+
+Version 1.01
+	Max character length of the serial number changes to 63.
+	Max character length of the product string changes to 126.
+	CP2101_DEVICE_STRING type for the full path.
+	CP2101_PRODUCT_STRING type for the the product string.
+	CP2101_SERIAL_STRING type for the serial number.
+	
+Version 1.0
+	Initial Release
+

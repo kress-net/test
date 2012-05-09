@@ -1,0 +1,29 @@
+
+CP2112 v1.0 Release Notes
+Copyright (C) 2010 Silicon Laboratories, Inc.
+
+This release contains the following components:
+
+        * SLABHIDtoSMBus.dll (v1.2)
+        * SLABHIDDevice.dll (v1.5)
+        * CP2112SetIDs.exe (v1.0)
+        * CP2112SetIDs_SRC.zip
+        * ReleaseNotes.TXT (this file)
+
+KNOWN ISSUES AND LIMITATIONS
+----------------------------
+
+	1.) 
+
+
+Release Dates
+-------------
+
+	CP2112 v1.0 - November 17, 2010
+
+
+REVISION HISTORY
+-----------------
+
+Version 1.0
+	Initial Release

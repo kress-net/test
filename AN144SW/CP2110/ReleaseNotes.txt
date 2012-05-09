@@ -1,0 +1,30 @@
+
+CP2110 v1.0 Release Notes
+Copyright (C) 2010 Silicon Laboratories, Inc.
+
+This release contains the following components:
+
+        * SLABHIDtoUART.dll (v1.4)
+        * SLABHIDDevice.dll (v1.5)
+        * CP211xSetIDs.exe (v1.0)
+        * CP211xSetIDs_SRC.zip
+        * ReleaseNotes.TXT (this file)
+
+KNOWN ISSUES AND LIMITATIONS
+----------------------------
+
+	1.) 
+
+
+Release Dates
+-------------
+
+	CP2110 v1.0 - November 17, 2010
+
+
+REVISION HISTORY
+-----------------
+
+Version 1.0
+	Initial Release
+
